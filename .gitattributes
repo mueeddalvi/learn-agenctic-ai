@@ -1,0 +1,23 @@
+# Normalize all text files to LF on commit
+* text=auto eol=lf
+
+# Python files
+*.py text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.lock text eol=lf
+
+# Jupyter Notebooks
+*.ipynb text eol=lf
+
+# Windows batch scripts (force CRLF)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files — no line ending conversion
+*.pdf binary
+*.faiss binary
+*.pt binary
+*.bin binary
+*.safetensors binary
